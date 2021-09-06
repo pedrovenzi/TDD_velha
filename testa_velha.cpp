@@ -46,3 +46,12 @@ TEST_CASE( "Testa velha", "[single-file]" ) {
 
 }
 
+TEST_CASE( "Testa velha", "[single-file]" ) {
+	int teste5[3][3]= {   { 0, 0, 1 }, 
+	                      { 0, 1, 0 },
+						  { 1, 0, 0 }
+					  };
+    REQUIRE( VerificaVelha(teste5) == 1 );
+
+}
+
