@@ -155,12 +155,20 @@ TEST_CASE( "Vitória 16 - O Linha de Cima", "[single-file]" ) {
 }
 
 TEST_CASE( "Jogo Impossível", "[single-file]" ) {
-	int teste8[3][3]= {   { 1, 1, 1 }, 
+	int teste17[3][3]= {   { 1, 1, 1 }, 
 	                      { 1, 2, 2 },
 						  { 0, 0, 0 }
 					  };
-    REQUIRE( VerificaVelha(teste8) == -2 );
+    REQUIRE( VerificaVelha(teste17) == -2 );
 
 }
 
+TEST_CASE( "Jogo Empatado", "[single-file]" ) {
+	int teste18[3][3]= {   { 1, 2, 1 }, 
+	                      { 1, 2, 1 },
+						  { 2, 1, 2 }
+					  };
+    REQUIRE( VerificaVelha(teste18) == 0 );
+
+}
 
