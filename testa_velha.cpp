@@ -37,7 +37,7 @@ TEST_CASE( "Vitória 3 - X Coluna da Esquerda", "[single-file]" ) {
 }
 
 TEST_CASE( "Vitória 4 - X Diagonal Direita", "[single-file]" ) {
-	int teste12[3][3]= {   { 1, 2, 0 }, 
+	int teste12[3][3]= {  { 1, 2, 0 }, 
 	                      { 2, 1, 2 },
 						  { 0, 1, 1 }
 					  };
