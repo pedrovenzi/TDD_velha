@@ -115,13 +115,16 @@ int VerificaVelha( int velha[3][3] )
 			}
 		}
 
-		if ((condicao_vitoria_x == 1) || (condicao_vitoria_o == 1)) {
+		if ((condicao_vitoria_x > 0) || (condicao_vitoria_o > 0)) {
+			if (((condicao_vitoria_x > 1) || (condicao_vitoria_o > 1)) || ((condicao_vitoria_x == 1) && (condicao_vitoria_o == 1))) {
+				return -2;
+			}
 			if (condicao_vitoria_x == 1) {
 				return 1;
-			};
-			if (condicao_vitoria_o == 1) {
+			} else if (condicao_vitoria_o == 1) {
 				return 2;
-			};
+			}
+			
 		} else {
 			if (vazio_cont == 0) {
 				return 0;
