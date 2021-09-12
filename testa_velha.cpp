@@ -82,3 +82,12 @@ TEST_CASE( "Vitória 8 - Linha de Cima", "[single-file]" ) {
 
 }
 
+TEST_CASE( "Jogo Impossível", "[single-file]" ) {
+	int teste8[3][3]= {   { 1, 1, 1 }, 
+	                      { 1, 2, 2 },
+						  { 0, 0, 0 }
+					  };
+    REQUIRE( VerificaVelha(teste8) == -2 );
+
+}
+
