@@ -154,7 +154,7 @@ TEST_CASE( "Vitória 16 - O Linha de Cima", "[single-file]" ) {
 
 }
 
-TEST_CASE( "Jogo Impossível", "[single-file]" ) {
+TEST_CASE( "Jogo Impossível 1", "[single-file]" ) {
 	int teste17[3][3]= {   { 1, 1, 1 }, 
 	                      { 1, 2, 2 },
 						  { 0, 0, 0 }
@@ -163,29 +163,47 @@ TEST_CASE( "Jogo Impossível", "[single-file]" ) {
 
 }
 
+TEST_CASE( "Jogo Impossível 2", "[single-file]" ) {
+	int teste18[3][3]= {   { 1, 1, 1 }, 
+	                      { 2, 2, 2 },
+						  { 0, 0, 0 }
+					  };
+    REQUIRE( VerificaVelha(teste18) == -2 );
+
+}
+
+TEST_CASE( "Jogo Impossível 3", "[single-file]" ) {
+	int teste19[3][3]= {   { 1, 1, 1 }, 
+	                      { 1, 2, 2 },
+						  { 1, 2, 2 }
+					  };
+    REQUIRE( VerificaVelha(teste19) == -2 );
+
+}
+
 TEST_CASE( "Jogo Empatado", "[single-file]" ) {
-	int teste18[3][3]= {   { 1, 2, 1 }, 
+	int teste20[3][3]= {   { 1, 2, 1 }, 
 	                      { 1, 2, 1 },
 						  { 2, 1, 2 }
 					  };
-    REQUIRE( VerificaVelha(teste18) == 0 );
+    REQUIRE( VerificaVelha(teste20) == 0 );
 
 }
 
 TEST_CASE( "Jogo Indefinido 1", "[single-file]" ) {
-	int teste19[3][3]= {   { 1, 2, 0 }, 
+	int teste21[3][3]= {   { 1, 2, 0 }, 
 	                      { 1, 2, 1 },
 						  { 2, 1, 2 }
 					  };
-    REQUIRE( VerificaVelha(teste19) == -1 );
+    REQUIRE( VerificaVelha(teste21) == -1 );
 
 }
 
 TEST_CASE( "Jogo Indefinido 2", "[single-file]" ) {
-	int teste20[3][3]= {   { 1, 0, 0 }, 
+	int teste22[3][3]= {   { 1, 0, 0 }, 
 	                      { 0, 0, 0 },
 						  { 0, 0, 0 }
 					  };
-    REQUIRE( VerificaVelha(teste20) == -1 );
+    REQUIRE( VerificaVelha(teste22) == -1 );
 
 }

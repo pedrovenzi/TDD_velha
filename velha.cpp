@@ -55,63 +55,63 @@ int VerificaVelha( int velha[3][3] )
 			cout << n_jogada << " - " << jogadas[n_jogada] << endl;
 		};
 
-		bool condicao_vitoria_x = 0;
-		bool condicao_vitoria_o = 0;
+		int condicao_vitoria_x = 0;
+		int condicao_vitoria_o = 0;
 
 		if ((jogadas[2] == jogadas[5]) && (jogadas[5] == jogadas[8])) {
 			if (jogadas[2] == 1) {
-				condicao_vitoria_x = 1;
+				condicao_vitoria_x++;
 			} else if (jogadas[2] == 2){
-				condicao_vitoria_o = 1;
+				condicao_vitoria_o++;
 			}
 		}
 		if ((jogadas[1] == jogadas[4]) && (jogadas[4] == jogadas[7])) {
 			if (jogadas[1] == 1) {
-				condicao_vitoria_x = 1;
+				condicao_vitoria_x++;
 			} else if (jogadas[1] == 2){
-				condicao_vitoria_o = 1;
+				condicao_vitoria_o++;
 			}
 		}
 		if ((jogadas[0] == jogadas[3]) && (jogadas[3] == jogadas[6])) {
 			if (jogadas[0] == 1) {
-				condicao_vitoria_x = 1;
+				condicao_vitoria_x++;
 			} else if (jogadas[0] == 2){
-				condicao_vitoria_o = 1;
+				condicao_vitoria_o++;
 			}
 		}
 		if ((jogadas[0] == jogadas[4]) && (jogadas[4] == jogadas[8])) {
 			if (jogadas[0] == 1) {
-				condicao_vitoria_x = 1;
+				condicao_vitoria_x++;
 			} else if (jogadas[0] == 2){
-				condicao_vitoria_o = 1;
+				condicao_vitoria_o++;
 			}
 		}
 		if ((jogadas[2] == jogadas[4]) && (jogadas[4] == jogadas[6])) {
 			if (jogadas[2] == 1) {
-				condicao_vitoria_x = 1;
+				condicao_vitoria_x++;
 			} else if (jogadas[2] == 2){
-				condicao_vitoria_o = 1;
+				condicao_vitoria_o++;
 			}
 		}
 		if ((jogadas[6] == jogadas[7]) && (jogadas[7] == jogadas[8])) {
 			if (jogadas[6] == 1) {
-				condicao_vitoria_x = 1;
+				condicao_vitoria_x++;
 			} else if (jogadas[6] == 2){
-				condicao_vitoria_o = 1;
+				condicao_vitoria_o++;
 			}
 		}
 		if ((jogadas[3] == jogadas[4]) && (jogadas[4] == jogadas[5])) {
 			if (jogadas[3] == 1) {
-				condicao_vitoria_x = 1;
+				condicao_vitoria_x++;
 			} else if (jogadas[3] == 2){
-				condicao_vitoria_o = 1;
+				condicao_vitoria_o++;
 			}
 		}
 		if ((jogadas[0] == jogadas[1]) && (jogadas[1] == jogadas[2])) {
 			if (jogadas[0] == 1) {
-				condicao_vitoria_x = 1;
+				condicao_vitoria_x++;
 			} else if (jogadas[0] == 2){
-				condicao_vitoria_o = 1;
+				condicao_vitoria_o++;
 			}
 		}
 
@@ -122,10 +122,16 @@ int VerificaVelha( int velha[3][3] )
 			if (condicao_vitoria_o == 1) {
 				return 2;
 			};
+		} else {
+			if (vazio_cont == 0) {
+				return 0;
+			} else {
+				return -1;
+			};
 		};
 	} else {
 		return -2;
 	};
-	return 0; /*!< retorna zero para teste */
+	return 0;
 }
 
