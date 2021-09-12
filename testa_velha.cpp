@@ -172,3 +172,20 @@ TEST_CASE( "Jogo Empatado", "[single-file]" ) {
 
 }
 
+TEST_CASE( "Jogo Indefinido 1", "[single-file]" ) {
+	int teste19[3][3]= {   { 1, 2, 0 }, 
+	                      { 1, 2, 1 },
+						  { 2, 1, 2 }
+					  };
+    REQUIRE( VerificaVelha(teste19) == -1 );
+
+}
+
+TEST_CASE( "Jogo Indefinido 2", "[single-file]" ) {
+	int teste20[3][3]= {   { 1, 0, 0 }, 
+	                      { 0, 0, 0 },
+						  { 0, 0, 0 }
+					  };
+    REQUIRE( VerificaVelha(teste20) == -1 );
+
+}
