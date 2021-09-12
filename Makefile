@@ -13,8 +13,8 @@ check:
 	cppcheck --enable=warning .
 	
 cpplint:
-	python ~/.local/lib/python3.8/site-packages/cpplint.py testa_velha.cpp
-	python ~/.local/lib/python3.8/site-packages/cpplint.py velha.cpp
+	python3 /usr/local/lib/python3.8/dist-packages/cpplint.py testa_velha.cpp
+	python3 /usr/local/lib/python3.8/dist-packages/cpplint.py velha.cpp
 	
 doxygen:
 	doxygen 
