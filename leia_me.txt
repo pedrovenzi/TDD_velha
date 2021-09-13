@@ -1,2 +1,82 @@
-com o g++ e o make instalado 
-digite "make" neste diretório
+Framework de Testes Utilizado: Catch v1.12.1
+Sistema Utilizado: Ubuntu 20.04.2.0
+
+Instruções de Compilação e Execução:
+    Compilação:
+    make
+
+    Execução:
+    ./testa_velha
+
+Listagem dos Testes Realizados em testa_velha.cpp:
+
+  Vitória 1 - X Coluna da Direita
+  - Checa condição de vitória legítima para o Jogador 1 (X) no caso de alinhamento pela coluna da direita.
+
+  Vitória 2 - X Coluna do Meio
+  - Checa condição de vitória legítima para o Jogador 1 (X) no caso de alinhamento pela coluna central.
+
+  Vitória 3 - X Coluna da Esquerda
+  - Checa condição de vitória legítima para o Jogador 1 (X) no caso de alinhamento pela coluna da esquerda.
+
+  Vitória 4 - X Diagonal Direita
+  - Checa condição de vitória legítima para o Jogador 1 (X) no caso de alinhamento pela diagonal direita.
+
+  Vitória 5 - X Diagonal Esquerda
+  - Checa condição de vitória legítima para o Jogador 1 (X) no caso de alinhamento pela diagonal esquerda.
+
+  Vitória 6 - X Linha de Baixo
+  - Checa condição de vitória legítima para o Jogador 1 (X) no caso de alinhamento pela linha inferior.
+
+  Vitória 7 - X Linha do Meio
+  - Checa condição de vitória legítima para o Jogador 1 (X) no caso de alinhamento pela linha central.
+
+  Vitória 8 - X Linha de Cima
+  - Checa condição de vitória legítima para o Jogador 1 (X) no caso de alinhamento pela linha superior.
+
+  Vitória 9 - O Coluna da Direita
+  - Checa condição de vitória legítima para o Jogador 2 (O) no caso de alinhamento pela coluna da direita.
+
+  Vitória 10 - O Coluna do Meio
+  - Checa condição de vitória legítima para o Jogador 2 (O) no caso de alinhamento pela coluna central.
+
+  Vitória 11 - O Coluna da Esquerda
+  - Checa condição de vitória legítima para o Jogador 2 (O) no caso de alinhamento pela coluna da esquerda.
+
+  Vitória 12 - O Diagonal Direita
+  - Checa condição de vitória legítima para o Jogador 2 (O) no caso de alinhamento pela daigonal direita.
+
+  Vitória 13 - O Diagonal Esquerda
+  - Checa condição de vitória legítima para o Jogador 2 (O) no caso de alinhamento pela diagonal esquerda.
+
+  Vitória 14 - O Linha de Baixo
+  - Checa condição de vitória legítima para o Jogador 2 (O) no caso de alinhamento pela linha inferior.
+
+  Vitória 15 - O Linha do Meio
+  - Checa condição de vitória legítima para o Jogador 2 (O) no caso de alinhamento pela linha central.
+
+  Vitória 16 - O Linha de Cima
+  - Checa condição de vitória legítima para o Jogador 2 (O) no caso de alinhamento pela linha superior.
+
+  Jogo Impossível 1
+  - Resguarda a Regra dos Turnos, isto é, o fato de que Jogador 1 e Jogador 2 alternam a vez de jogar. No caso de haver
+    uma diferença absoluta de 2 na quantidade de X e O, pode-se afirmar que um jogador realizou jogadas consecutivas,
+    configurando o primeiro caso de Jogo Impossível.
+
+  Jogo Impossível 2
+  - Resguarda a Vitória Singular, já que dois jogadores não podem apresentar condição de vitória simultaneamente.
+    Configura o segundo caso de Jogo Impossível.
+
+  Jogo Impossível 3
+  - Resguarda a Vitória Singular, já que um jogador não pode apresentar múltiplas condições de vitória.
+    Configura o terceiro caso de Jogo Impossível.
+
+  Jogo Empatado
+  - Checa o empate, que é quando não há condição de vitória aparente para X ou O e não há espaços vazios.
+
+
+  Jogo Indefinido 1
+  - Checa um jogo em andamento, que é quando não há condição de vitória aparente para X ou O e há espaços vazios.
+
+  Jogo Indefinido 2
+  - Checa um jogo em andamento, que é quando não há condição de vitória aparente para X ou O e há espaços vazios.

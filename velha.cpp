@@ -16,6 +16,8 @@
  *  Dada uma imagem estática (estado) de um Jogo da Velha, a função verifica o resultado de um jogo
  *  caso ele já tenha acabado, confere a plausibilidade da aparição de tal estado ao decorrer de um jogo,
  *  e checa se o jogo ainda está em andamento.
+ *
+ *  Detalhamento dos Testes se encontra em leia-me.txt
  */ 
 
 int VerificaVelha(int velha[3][3]) {
