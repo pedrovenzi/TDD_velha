@@ -1,0 +1,75 @@
+\hypertarget{testa__velha_8cpp}{}\doxysection{testa\+\_\+velha.\+cpp File Reference}
+\label{testa__velha_8cpp}\index{testa\_velha.cpp@{testa\_velha.cpp}}
+{\ttfamily \#include \char`\"{}velha.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}catch.\+hpp\char`\"{}}\newline
+Include dependency graph for testa\+\_\+velha.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_ab68bd9312fe3f4ba62c0ed90e21b62a1}\label{testa__velha_8cpp_ab68bd9312fe3f4ba62c0ed90e21b62a1}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 1 -\/ X Coluna da Direita\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a99c9503d4d390c58ffa020bc39a0074b}\label{testa__velha_8cpp_a99c9503d4d390c58ffa020bc39a0074b}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 2 -\/ X Coluna do Meio\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a4a4283d5f0127cb5f5a8b7ca86d2cac2}\label{testa__velha_8cpp_a4a4283d5f0127cb5f5a8b7ca86d2cac2}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 3 -\/ X Coluna da Esquerda\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a3034e83db2e0c497da63785a9931134d}\label{testa__velha_8cpp_a3034e83db2e0c497da63785a9931134d}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 4 -\/ X Diagonal Direita\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a5cfcfa50ec06c7862e6ab78b461b7ed6}\label{testa__velha_8cpp_a5cfcfa50ec06c7862e6ab78b461b7ed6}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 5 -\/ X Diagonal Esquerda\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a1c012900c66a3678fb62adad41d888f4}\label{testa__velha_8cpp_a1c012900c66a3678fb62adad41d888f4}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 6 -\/ X Linha de Baixo\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_ac5ff136bc08409c541da633cc7e42207}\label{testa__velha_8cpp_ac5ff136bc08409c541da633cc7e42207}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 7 -\/ X Linha do Meio\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a6b9788d57e1b919162ea52819e56a8da}\label{testa__velha_8cpp_a6b9788d57e1b919162ea52819e56a8da}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 8 -\/ X Linha de Cima\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a026dd5cfa3ef823045f8b6e419c1df6a}\label{testa__velha_8cpp_a026dd5cfa3ef823045f8b6e419c1df6a}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 9 -\/ O Coluna da Direita\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a7067e6524579b36d470923e443dd4b1c}\label{testa__velha_8cpp_a7067e6524579b36d470923e443dd4b1c}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 10 -\/ O Coluna do Meio\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a8d47ad9c12aed14e256b24264415c025}\label{testa__velha_8cpp_a8d47ad9c12aed14e256b24264415c025}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 11 -\/ O Coluna da Esquerda\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a59f2bb472095a9d33e6a1140841dc985}\label{testa__velha_8cpp_a59f2bb472095a9d33e6a1140841dc985}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 12 -\/ O Diagonal Direita\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a13fbfe321c98f266a2388591099a6803}\label{testa__velha_8cpp_a13fbfe321c98f266a2388591099a6803}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 13 -\/ O Diagonal Esquerda\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a39458c691cefe0eb4eac20f449e50896}\label{testa__velha_8cpp_a39458c691cefe0eb4eac20f449e50896}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 14 -\/ O Linha de Bai\+Oo\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a4734a921e7822cac215be2a7b943aafa}\label{testa__velha_8cpp_a4734a921e7822cac215be2a7b943aafa}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 15 -\/ O Linha do Meio\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_ae6abbc6c4c76ac2ed5e348c1aeebf056}\label{testa__velha_8cpp_ae6abbc6c4c76ac2ed5e348c1aeebf056}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Vitória 16 -\/ O Linha de Cima\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a0d921111d309da6801733d79a0593816}\label{testa__velha_8cpp_a0d921111d309da6801733d79a0593816}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Jogo Impossível 1\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_adca12e85dada387927f5348f3f558b88}\label{testa__velha_8cpp_adca12e85dada387927f5348f3f558b88}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Jogo Impossível 2\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_ab4cc818e1f7a6d34128201a8b6d41120}\label{testa__velha_8cpp_ab4cc818e1f7a6d34128201a8b6d41120}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Jogo Impossível 3\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_a9a852d7e89a88b19cbf74b120cda8bb9}\label{testa__velha_8cpp_a9a852d7e89a88b19cbf74b120cda8bb9}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Jogo Empatado\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_af229620fe917d68ceaf98bbacacdb7f0}\label{testa__velha_8cpp_af229620fe917d68ceaf98bbacacdb7f0}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Jogo Indefinido 1\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\item 
+\mbox{\Hypertarget{testa__velha_8cpp_ae488f0c18eafe91de0d7ab499a059d4f}\label{testa__velha_8cpp_ae488f0c18eafe91de0d7ab499a059d4f}} 
+{\bfseries T\+E\+S\+T\+\_\+\+C\+A\+SE} (\char`\"{}Jogo Indefinido 2\char`\"{}, \char`\"{}\mbox{[}single-\/file\mbox{]}\char`\"{})
+\end{DoxyCompactItemize}
